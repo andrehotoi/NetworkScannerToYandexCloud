@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Andrey\\source\\repos\\NetworkScanner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69943B03-2FFB-429D-79A2-E525445262BA}|NetworkScanner\\NetworkScanner.csproj|c:\\users\\andrey\\source\\repos\\networkscanner\\networkscanner\\cloudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69943B03-2FFB-429D-79A2-E525445262BA}|NetworkScanner\\NetworkScanner.csproj|solutionrelative:networkscanner\\cloudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69943B03-2FFB-429D-79A2-E525445262BA}|NetworkScanner\\NetworkScanner.csproj|c:\\users\\andrey\\source\\repos\\networkscanner\\networkscanner\\scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69943B03-2FFB-429D-79A2-E525445262BA}|NetworkScanner\\NetworkScanner.csproj|solutionrelative:networkscanner\\scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69943B03-2FFB-429D-79A2-E525445262BA}|NetworkScanner\\NetworkScanner.csproj|c:\\users\\andrey\\source\\repos\\networkscanner\\networkscanner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69943B03-2FFB-429D-79A2-E525445262BA}|NetworkScanner\\NetworkScanner.csproj|solutionrelative:networkscanner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69943B03-2FFB-429D-79A2-E525445262BA}|NetworkScanner\\NetworkScanner.csproj|c:\\users\\andrey\\source\\repos\\networkscanner\\networkscanner\\deviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69943B03-2FFB-429D-79A2-E525445262BA}|NetworkScanner\\NetworkScanner.csproj|solutionrelative:networkscanner\\deviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69943B03-2FFB-429D-79A2-E525445262BA}|NetworkScanner\\NetworkScanner.csproj|c:\\users\\andrey\\source\\repos\\networkscanner\\networkscanner\\compareresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69943B03-2FFB-429D-79A2-E525445262BA}|NetworkScanner\\NetworkScanner.csproj|solutionrelative:networkscanner\\compareresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 146,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DeviceInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\NetworkScanner\\NetworkScanner\\DeviceInfo.cs",
+              "RelativeDocumentMoniker": "NetworkScanner\\DeviceInfo.cs",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\NetworkScanner\\NetworkScanner\\DeviceInfo.cs",
+              "RelativeToolTip": "NetworkScanner\\DeviceInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T22:39:31.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CloudService.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\NetworkScanner\\NetworkScanner\\CloudService.cs",
+              "RelativeDocumentMoniker": "NetworkScanner\\CloudService.cs",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\NetworkScanner\\NetworkScanner\\CloudService.cs",
+              "RelativeToolTip": "NetworkScanner\\CloudService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T23:00:17.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "scanner.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\NetworkScanner\\NetworkScanner\\scanner.cs",
+              "RelativeDocumentMoniker": "NetworkScanner\\scanner.cs",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\NetworkScanner\\NetworkScanner\\scanner.cs",
+              "RelativeToolTip": "NetworkScanner\\scanner.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAuwBIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T13:52:36.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompareResult.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\NetworkScanner\\NetworkScanner\\CompareResult.cs",
+              "RelativeDocumentMoniker": "NetworkScanner\\CompareResult.cs",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\NetworkScanner\\NetworkScanner\\CompareResult.cs",
+              "RelativeToolTip": "NetworkScanner\\CompareResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T14:55:53.803Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 254,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey\\source\\repos\\NetworkScanner\\NetworkScanner\\Program.cs",
+              "RelativeDocumentMoniker": "NetworkScanner\\Program.cs",
+              "ToolTip": "C:\\Users\\Andrey\\source\\repos\\NetworkScanner\\NetworkScanner\\Program.cs",
+              "RelativeToolTip": "NetworkScanner\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T22:04:51.115Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

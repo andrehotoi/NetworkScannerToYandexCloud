@@ -1,0 +1,14 @@
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\bin\Debug\net10.0\NetworkScanner.exe
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\bin\Debug\net10.0\NetworkScanner.deps.json
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\bin\Debug\net10.0\NetworkScanner.runtimeconfig.json
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\bin\Debug\net10.0\NetworkScanner.dll
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\bin\Debug\net10.0\NetworkScanner.pdb
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\obj\Debug\net10.0\NetworkScanner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\obj\Debug\net10.0\NetworkScanner.AssemblyInfoInputs.cache
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\obj\Debug\net10.0\NetworkScanner.AssemblyInfo.cs
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\obj\Debug\net10.0\NetworkScanner.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\obj\Debug\net10.0\NetworkScanner.dll
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\obj\Debug\net10.0\refint\NetworkScanner.dll
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\obj\Debug\net10.0\NetworkScanner.pdb
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\obj\Debug\net10.0\NetworkScanner.genruntimeconfig.cache
+C:\Users\Andrey\source\repos\NetworkScanner\NetworkScanner\obj\Debug\net10.0\ref\NetworkScanner.dll
