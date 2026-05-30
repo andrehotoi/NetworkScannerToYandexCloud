@@ -1,9 +1,11 @@
 # NetworkScannerToYandexCloud
+
+## RU
 C# / .NET 6, без сторонних зависимостей. Встроенные библиотеки: System.Net — Ping, DNS, TCP; System.Text.Json — сериализация. Внешние API: macvendors.com, Яндекс.Диск REST API.
 
 Сканирует диапазон IP через ICMP Ping, определяет ОС по TTL, hostname через DNS, MAC через ARP, производителя через REST API. Отчёты в JSON сохраняются на Яндекс.Диск, доступно сравнение отчётов.
 
-# Возможности:
+### Возможности:
 - Сканирование диапазона IP-адресов через Ping
 - Определение ОС устройства по TTL
 - Получение hostname через DNS
@@ -15,7 +17,7 @@ C# / .NET 6, без сторонних зависимостей. Встроен�
 - Просмотр истории отчётов из облака
 - Сравнение двух отчётов с выводом изменений
 
-# Стек:
+### Стек:
 - C# / .NET 6
 - `System.Net.NetworkInformation` — Ping
 - `System.Net.Sockets` — TCP, проверка портов
@@ -24,22 +26,22 @@ C# / .NET 6, без сторонних зависимостей. Встроен�
 - `System.Text.Json` — сериализация отчётов
 - Яндекс.Диск REST API — облачное хранилище
 
-# Запуск:
+### Запуск:
 1. Клонируйте репозиторий
 2. Откройте в Visual Studio 2022
 3. Получите токен Яндекс.Диска на [oauth.yandex.ru](https://oauth.yandex.ru) и вставьте в `CloudService.cs`
 4. Запустите проект (`F5`)
 
-# Использование:
+### Использование:
 - Введите первые три байта сети (пример: 192.168.0)
 - Введите диапазон (например 1-254)
 - Выберите режим сканирования портов: 1 (10 портов) / 2 (30 портов)
-После сканирования:
-- 1 — просмотреть отчёт из облака
-- 2 — сравнить с отчётом из облака
-- 0 — выход
+- После сканирования:
+  - 1 — просмотреть отчёт из облака
+  - 2 — сравнить с отчётом из облака
+  - 0 — выход
 
-# Структура проекта:
+### Структура проекта:
 NetworkScanner/
 ├── Program.cs          — меню, точка входа
 ├── Scanner.cs          — логика сканирования
@@ -47,10 +49,12 @@ NetworkScanner/
 ├── DeviceInfo.cs       — модель устройства
 └── CompareResult.cs    — модель результата сравнения
 
+## EN
+
 C# / .NET 6, no third-party dependencies. Built-in libraries: System.Net — Ping, DNS, TCP; System.Text.Json — serialization. External APIs: macvendors.com, Yandex.Disk REST API.
 Scans IP range via ICMP Ping, detects OS by TTL, hostname via DNS, MAC via ARP, manufacturer via REST API. JSON reports are saved to Yandex.Disk with historical comparison support.
 
-# Features:
+### Features:
 - IP range scanning via Ping
 - OS detection by TTL
 - Hostname resolution via DNS
@@ -61,7 +65,7 @@ Scans IP range via ICMP Ping, detects OS by TTL, hostname via DNS, MAC via ARP, 
 - Cloud report history viewer
 - Two-report comparison with change output
 
-# Stack:
+### Stack:
 - C# / .NET 6
 - System.Net.NetworkInformation — Ping
 - System.Net.Sockets — TCP, port scanning
@@ -70,23 +74,22 @@ Scans IP range via ICMP Ping, detects OS by TTL, hostname via DNS, MAC via ARP, 
 - System.Text.Json — report serialization
 - Yandex.Disk REST API — cloud storage
 
-# Getting started:
+### Getting started:
 1. Clone the repository
 2. Open in Visual Studio 2022
 3. Get a Yandex.Disk token at oauth.yandex.ru and paste it into CloudService.cs
 4. Run the project (F5)
 
-# Usage:
+### Usage:
 - Enter the first three bytes of the network (example: 192.168.0)
 - Enter the range (example: 1-254)
 - Select port scan mode: 1 (10 ports) / 2 (30 ports)
+- After scanning:
+  - 1 — view a report from the cloud
+  - 2 — compare with a report from the cloud
+  - 0 — exit
 
-After scanning:
-- 1 — view a report from the cloud
-- 2 — compare with a report from the cloud
-- 0 — exit
-
-# Project structure:
+### Project structure:
 NetworkScanner/
 ├── Program.cs — menu, entry point
 ├── Scanner.cs — scanning logic
