@@ -43,11 +43,11 @@ C# / .NET 6, без сторонних зависимостей. Встроен�
 
 ### Структура проекта:
 NetworkScanner/
-├── Program.cs          — меню, точка входа
-├── Scanner.cs          — логика сканирования
-├── CloudService.cs     — работа с Яндекс.Диском
-├── DeviceInfo.cs       — модель устройства
-└── CompareResult.cs    — модель результата сравнения
+- Program.cs          — меню, точка входа
+- Scanner.cs          — логика сканирования
+- CloudService.cs     — работа с Яндекс.Диском
+- DeviceInfo.cs       — модель устройства
+- CompareResult.cs    — модель результата сравнения
 
 ## EN
 
@@ -91,8 +91,8 @@ Scans IP range via ICMP Ping, detects OS by TTL, hostname via DNS, MAC via ARP, 
 
 ### Project structure:
 NetworkScanner/
-├── Program.cs — menu, entry point
-├── Scanner.cs — scanning logic
-├── CloudService.cs — Yandex.Disk integration
-├── DeviceInfo.cs — device model
-└── CompareResult.cs — comparison result model
+- Program.cs — menu, entry point
+- Scanner.cs — scanning logic
+- CloudService.cs — Yandex.Disk integration
+- DeviceInfo.cs — device model
+- CompareResult.cs — comparison result model
