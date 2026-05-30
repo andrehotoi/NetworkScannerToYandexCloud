@@ -35,17 +35,17 @@ C# / .NET 6, без сторонних зависимостей. Встроен�
 - Введите диапазон (например 1-254)
 - Выберите режим сканирования портов: 1 (10 портов) / 2 (30 портов)
 После сканирования:
-1 — просмотреть отчёт из облака
-2 — сравнить с отчётом из облака
-0 — выход
+- 1 — просмотреть отчёт из облака
+- 2 — сравнить с отчётом из облака
+- 0 — выход
 
 # Структура проекта:
 NetworkScanner/
--Program.cs          — меню, точка входа
--Scanner.cs          — логика сканирования
--CloudService.cs     — работа с Яндекс.Диском
--DeviceInfo.cs       — модель устройства
--CompareResult.cs    — модель результата сравнения
+├── Program.cs          — меню, точка входа
+├── Scanner.cs          — логика сканирования
+├── CloudService.cs     — работа с Яндекс.Диском
+├── DeviceInfo.cs       — модель устройства
+└── CompareResult.cs    — модель результата сравнения
 
 C# / .NET 6, no third-party dependencies. Built-in libraries: System.Net — Ping, DNS, TCP; System.Text.Json — serialization. External APIs: macvendors.com, Yandex.Disk REST API.
 Scans IP range via ICMP Ping, detects OS by TTL, hostname via DNS, MAC via ARP, manufacturer via REST API. JSON reports are saved to Yandex.Disk with historical comparison support.
@@ -82,14 +82,14 @@ Scans IP range via ICMP Ping, detects OS by TTL, hostname via DNS, MAC via ARP, 
 - Select port scan mode: 1 (10 ports) / 2 (30 ports)
 
 After scanning:
-1 — view a report from the cloud
-2 — compare with a report from the cloud
-0 — exit
+- 1 — view a report from the cloud
+- 2 — compare with a report from the cloud
+- 0 — exit
 
 # Project structure:
 NetworkScanner/
--Program.cs — menu, entry point
--Scanner.cs — scanning logic
--CloudService.cs — Yandex.Disk integration
--DeviceInfo.cs — device model
--CompareResult.cs — comparison result model
+├── Program.cs — menu, entry point
+├── Scanner.cs — scanning logic
+├── CloudService.cs — Yandex.Disk integration
+├── DeviceInfo.cs — device model
+└── CompareResult.cs — comparison result model
