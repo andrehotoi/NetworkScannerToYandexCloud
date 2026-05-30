@@ -1,6 +1,4 @@
 # NetworkScannerToYandexCloud
-## RU:
-
 C# / .NET 6, без сторонних зависимостей. Встроенные библиотеки: System.Net — Ping, DNS, TCP; System.Text.Json — сериализация. Внешние API: macvendors.com, Яндекс.Диск REST API.
 
 Сканирует диапазон IP через ICMP Ping, определяет ОС по TTL, hostname через DNS, MAC через ARP, производителя через REST API. Отчёты в JSON сохраняются на Яндекс.Диск, доступно сравнение отчётов.
@@ -48,8 +46,6 @@ NetworkScanner/
 -CloudService.cs     — работа с Яндекс.Диском
 -DeviceInfo.cs       — модель устройства
 -CompareResult.cs    — модель результата сравнения
-
-## EN:
 
 C# / .NET 6, no third-party dependencies. Built-in libraries: System.Net — Ping, DNS, TCP; System.Text.Json — serialization. External APIs: macvendors.com, Yandex.Disk REST API.
 Scans IP range via ICMP Ping, detects OS by TTL, hostname via DNS, MAC via ARP, manufacturer via REST API. JSON reports are saved to Yandex.Disk with historical comparison support.
