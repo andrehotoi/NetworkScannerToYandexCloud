@@ -1,9 +1,11 @@
 # NetworkScannerToYandexCloud
+## RU:
+
 C# / .NET 6, без сторонних зависимостей. Встроенные библиотеки: System.Net — Ping, DNS, TCP; System.Text.Json — сериализация. Внешние API: macvendors.com, Яндекс.Диск REST API.
 
 Сканирует диапазон IP через ICMP Ping, определяет ОС по TTL, hostname через DNS, MAC через ARP, производителя через REST API. Отчёты в JSON сохраняются на Яндекс.Диск, доступно сравнение отчётов.
 
-  # Возможности:
+# Возможности:
 - Сканирование диапазона IP-адресов через Ping
 - Определение ОС устройства по TTL
 - Получение hostname через DNS
@@ -15,7 +17,7 @@ C# / .NET 6, без сторонних зависимостей. Встроен�
 - Просмотр истории отчётов из облака
 - Сравнение двух отчётов с выводом изменений
 
-  # Стек:
+# Стек:
 - C# / .NET 6
 - `System.Net.NetworkInformation` — Ping
 - `System.Net.Sockets` — TCP, проверка портов
@@ -24,13 +26,13 @@ C# / .NET 6, без сторонних зависимостей. Встроен�
 - `System.Text.Json` — сериализация отчётов
 - Яндекс.Диск REST API — облачное хранилище
 
-  # Запуск:
+# Запуск:
 1. Клонируйте репозиторий
 2. Откройте в Visual Studio 2022
 3. Получите токен Яндекс.Диска на [oauth.yandex.ru](https://oauth.yandex.ru) и вставьте в `CloudService.cs`
 4. Запустите проект (`F5`)
 
-  # Использование:
+# Использование:
 - Введите первые три байта сети (пример: 192.168.0)
 - Введите диапазон (например 1-254)
 - Выберите режим сканирования портов: 1 (10 портов) / 2 (30 портов)
@@ -39,7 +41,7 @@ C# / .NET 6, без сторонних зависимостей. Встроен�
 2 — сравнить с отчётом из облака
 0 — выход
 
-  # Структура проекта:
+# Структура проекта:
 NetworkScanner/
 -Program.cs          — меню, точка входа
 -Scanner.cs          — логика сканирования
@@ -47,7 +49,7 @@ NetworkScanner/
 -DeviceInfo.cs       — модель устройства
 -CompareResult.cs    — модель результата сравнения
 
-# EN:
+## EN:
 
 C# / .NET 6, no third-party dependencies. Built-in libraries: System.Net — Ping, DNS, TCP; System.Text.Json — serialization. External APIs: macvendors.com, Yandex.Disk REST API.
 Scans IP range via ICMP Ping, detects OS by TTL, hostname via DNS, MAC via ARP, manufacturer via REST API. JSON reports are saved to Yandex.Disk with historical comparison support.
